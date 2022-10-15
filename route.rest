@@ -1,0 +1,40 @@
+GET http://localhost:8080/api/courses
+
+
+###
+
+GET http://localhost:8080/api/courses/2
+
+
+###
+
+POST http://localhost:8080/api/courses
+Content-Type: application/json
+
+
+{
+    "id": 3,
+    "name": "Angular"
+}
+
+###
+
+PUT http://localhost:8080/api/courses/1
+Content-Type: application/json
+
+{
+    "id": 2,
+    "name": "new course"
+}
+
+###
+
+DELETE http://localhost:8080/api/courses/1
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "course1"
+}
+
+###
